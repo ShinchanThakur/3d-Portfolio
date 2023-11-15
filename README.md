@@ -7,6 +7,7 @@ This is a 3-d personal portfolio.
 1. React
 2. Vite
 3. Three.js
+4. Tailwind css
 
 ## How to run
 
