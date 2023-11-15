@@ -8,6 +8,14 @@ This is a 3-d personal portfolio.
 2. Vite
 3. Three.js
 
+## How to run
+
+To run this project, follow these steps - 
+
+1. Open a terminal and type the following commands - 
+    - npm install
+    - npm run dev
+
 ## Credits
 
 1. [JavaScript Mastery](https://www.youtube.com/@javascriptmastery) youtube channel.
