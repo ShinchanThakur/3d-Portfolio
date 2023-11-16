@@ -1,6 +1,7 @@
 # 3-D PORTFOLIO
 
 This is a 3-d personal portfolio.
+It is deployed [here](https://shinchanthakur.github.io/3d-Portfolio/).
 
 ## Techs Used
 
