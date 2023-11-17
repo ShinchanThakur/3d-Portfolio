@@ -14,6 +14,11 @@ const Bird = () => {
 
     useFrame(({ clock, camera }) => {
         birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.2 + 2;
+
+        if (birdRef.current.position.x > camera.position.x + 10)
+            birdRef.current.rotation.y = Math.PI;
+        else if (birdRef.current.position.x < camera.position.x - 10)
+            birdRef.current.rotation.y = 0;
     });
 
     return (
