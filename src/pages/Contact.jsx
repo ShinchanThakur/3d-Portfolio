@@ -4,10 +4,17 @@ const Contact = () => {
     const formRef = useRef(null);
     const [form, setForm] = useState({ name: '', email: '', message: '' });
     const [isLoading, setIsLoading] = useState(false);
-    const handleChange = () => { };
+    const handleChange = (e) => {
+        setForm((prevForm) => {
+            return { ...prevForm, [e.target.name]: e.target.value }
+        })
+    };
     const handleFocus = () => { };
     const handleBlur = () => { };
-    const handleSubmit = () => { };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setIsLoading(true);
+    };
     return (
         <section className="relative flex lg:flex-row flex-col max-container">
             <div className="flex-1 min-w-[50%] flex flex-col">
