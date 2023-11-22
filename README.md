@@ -18,6 +18,11 @@ To run this project, follow these steps -
     - npm install
     - npm run dev
 
+## Todo
+
+1. Prevent user from sending 1000 mails (by some means (try to limit the number of emails that one ip can send in 1 day))
+2. Ensure that the UX is good on both devices (there is no lag, the scrolling is smooth etc).
+
 ## Credits
 
 1. [Emilian Kasemi](https://www.youtube.com/@the_rings_of_saturn) youtube channel.
