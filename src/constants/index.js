@@ -100,7 +100,7 @@ export const experiences = [
         title: "SDE Intern",
         company_name: "Deutsche Bank",
         icon: deutscheBank,
-        iconBg: "#F5F5F5",
+        iconBg: "#87CEEB",
         date: "Jun 2021 - Aug 2021",
         points: [
             "Created a pipeline to fetch Enron Dataset containing 5 lakh records and indexed into Solr",
@@ -112,9 +112,9 @@ export const experiences = [
     },
     {
         title: "Software Developer",
-        company_name: "Bank ofNew York Mellon",
+        company_name: "Bank of New York Mellon",
         icon: bnyMellon,
-        iconBg: "#000000",
+        iconBg: "#303030",
         date: "Jul 2022 - Sep 2023",
         points: [
             "Worked on a keystone project in Shared Services",
