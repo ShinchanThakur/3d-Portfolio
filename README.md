@@ -14,7 +14,12 @@ It is deployed [here](https://shinchanthakur.github.io/3d-Portfolio/).
 
 To run this project, follow these steps - 
 
-1. Open a terminal and type the following commands - 
+1. Create an account on [Email.js](https://www.emailjs.com/) website and get credentials. Add the following environment variables in .env.local file in your root folder - 
+    - VITE_APP_EMAILJS_SERVICE_ID='yourServiceId'
+    - VITE_APP_EMAILJS_TEMPLATE_ID='yourTemplateId'
+    - VITE_APP_EMAILJS_PUBLIC_KEY='yourPublicKey'
+
+2. Open a terminal and type the following commands - 
     - npm install
     - npm run dev
 
