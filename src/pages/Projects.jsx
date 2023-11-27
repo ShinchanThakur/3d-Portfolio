@@ -1,3 +1,5 @@
+import CTA from '../components/CTA';
+
 const Projects = () => {
     return (
         <section className="max-container">
@@ -12,6 +14,9 @@ const Projects = () => {
                     explore the codebase and contribute your ideas for further enhancements.
                     Your collaboration is highly valued!</p>
             </div>
+
+            <hr className="border-slate-200" />
+            <CTA />
         </section>
     );
 };
